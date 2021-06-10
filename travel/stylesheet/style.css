@@ -510,6 +510,15 @@ header .search-bar-container label:hover {
   text-transform: none;
 }
 
+.brand-container {
+  text-align: center;
+}
+
+.brand-logo {
+  width: 20rem;
+  height: 15rem;
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
