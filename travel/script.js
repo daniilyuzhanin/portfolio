@@ -7,6 +7,7 @@ let menu = document.querySelector('#menu-bar');
 let nav = document.querySelector('.navigation');
 let vidBtn = document.querySelectorAll('.vid-btn');
 
+
 window.onscroll = () => {
 	searchBtn.classList.remove('fa-times');
 	searchBar.classList.remove('active');
@@ -40,4 +41,24 @@ vidBtn.forEach(btn => {
 		let src = btn.getAttribute('data-src');
 		document.querySelector('#video-slider').src = src;
 	});
+});
+
+var swiper = new Swiper(".review-slider", {
+	spaceBetween: 20,
+	loop: true,
+	autoplay: {
+		delay: 2500,
+		disbleOnInteraction: false,
+	},
+	breakpoints: {
+		640: {
+			slidesPerView: 1,
+		},
+		768: {
+			slidesPerView: 2,
+		},
+		1024: {
+			slidesPerView: 3,
+		},
+	},
 });
