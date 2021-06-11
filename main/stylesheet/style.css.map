@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss","_reset.scss","_variables.scss"],"names":[],"mappings":"AAEQ,6FAAA;ACFR;EACC,UAAA;EAAW,SAAA;EACX,sBAAA;EACA,gBAAA;EACA,qBAAA;ADGD;;AAFA;EACC,uBAAA;AAKD;;AAFA;EACC,kBAAA;EACA,kCEGW;EFFX,mBEQY;EFPZ,yBEJY;EFKZ,cERY;AFab;;AAFA;EACC,cEba;EFcb,gBEMgB;AFDjB;;AAFA;EACC,eAAA;EACA,YAAA;AAKD","file":"style.css"}
